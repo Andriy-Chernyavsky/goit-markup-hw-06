@@ -491,7 +491,7 @@ ol {
 
 @media screen and (min-width: 768px) {
   .feature-list {
-    gap: 24px;
+    gap: 72px 24px;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -555,7 +555,7 @@ ol {
 
 .team-item {
   background-color: #fff;
-  width: 100%;
+  width: 264px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -580,6 +580,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 72px;
+  align-items: center;
 }
 .team-name {
   font-weight: 500;
@@ -634,7 +635,7 @@ ol {
 
 @media screen and (min-width: 768px) {
   .team-item {
-    width: calc((100% - 24px) / 2);
+    width: 264px;
   }
 
   .team-list {
@@ -642,6 +643,7 @@ ol {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
+    justify-content: center;
   }
 }
 
@@ -912,10 +914,11 @@ input::placeholder {
     flex-wrap: wrap;
     gap: 72px 24px;
     padding-left: 0 108px;
+    justify-content: center;
   }
 
   .footer-first-collon {
-    margin-left: 80px; /* ПРОСТО ПІДІБРАВ (((*/
+    /* margin-left: 80px; ПРОСТО ПІДІБРАВ ((( */
     text-align: left;
   }
 
@@ -928,7 +931,7 @@ input::placeholder {
   }
 
   .third-collon {
-    margin-left: 80px;
+    /* margin-left: 80px; */
   }
 
   .third-collon-text {
@@ -953,6 +956,12 @@ input::placeholder {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: baseline;
+    padding: 0 15px;
+    gap: 0;
+  }
+
+  .third-collon {
+    margin-left: 70px;
   }
 
   .footer-first-collon {
@@ -1198,5 +1207,5 @@ input::placeholder {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-  } */
-}
+  }
+} */
